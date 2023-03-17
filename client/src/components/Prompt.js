@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import gfm from 'remark-gfm';
 
 const Prompt = ({ onSubmit, loading }) => {
     const [rows, setRows] = useState(1);
